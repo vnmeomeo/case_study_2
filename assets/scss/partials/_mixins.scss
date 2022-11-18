@@ -23,7 +23,11 @@
 // Mobile & tablet
 @media (max-width: 1023px) {
     .app {
-        padding: 0 20px !important;
+        &__pd {
+            &--all {
+            padding: 0 20px !important;
+            }
+        }
     }
     .info {
         &__content {
@@ -244,6 +248,8 @@
 
     .footer {
         &__form {
+            padding: 100px 30px !important;
+
             &-btn {
                 width: 100% !important;
                 margin-top: 20px;
@@ -252,7 +258,23 @@
         }
     }
 
-}
-
-
+    .footer {
         
+        &__social {
+            background-color: #222121;
+            &-link {
+                &-icon {
+                    text-align: center !important;
+                }
+                & span {
+                    display: none !important;
+                } 
+            }
+        }
+
+    }
+
+    .mobile-footer {
+        text-align: center;
+    }
+}

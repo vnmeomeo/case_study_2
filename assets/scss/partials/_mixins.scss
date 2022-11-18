@@ -31,8 +31,9 @@
     }
     .info {
         &__content {
+            font-size: 14px;
             margin-bottom: 10px;
-            justify-content: flex-start !important;
+            justify-content: unset !important;
         }
     }
 
@@ -116,6 +117,8 @@
     .lookbook {
         &__content {
             &-imgbx {
+                margin-bottom: 50px;
+
                 &-img {
                     min-width: 100%;
                 }
@@ -126,6 +129,8 @@
         }
             
     }
+
+    
 
     .footer {
         &__form {
@@ -235,9 +240,22 @@
             }
         }
     }
+
+    .products {
+        &__title {
+            font-size: 50px !important;
+        }
+    }
     .lookbook {
         &__content {
+            &-box {
+                text-align: center !important;
+                &-title {
+                    font-size: 50px !important;
+                }
+            }
             &-imgbx {
+                margin-bottom: 50px;
                 &-text {
                     font-size: 40px !important;
                 }
